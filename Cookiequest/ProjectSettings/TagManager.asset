@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Boss
+  - HealthBar
+  - Ground
+  - Speedlines
+  - Minion
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Enemies
+  - Waterfall
+  - Background
+  - PlayerProjectile
+  - EnemyWAND
+  - AttackHitbox
+  - EnemyAttackHitbox
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1737433773
+    locked: 0
+  - name: Ground
+    uniqueID: 97386097
+    locked: 0
+  - name: Wo'ah
+    uniqueID: 612692941
+    locked: 0
+  - name: Enemy
+    uniqueID: 336996257
+    locked: 0
+  - name: Player
+    uniqueID: 2847608729
+    locked: 0
+  - name: Shork
+    uniqueID: 3537186219
+    locked: 0
+  - name: UI
+    uniqueID: 3837838057
+    locked: 0
+  - name: Laser
+    uniqueID: 114078851
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

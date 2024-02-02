@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8325462223430197407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8325462223430197405}
+  - component: {fileID: 8325462223430197404}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8325462223430197405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8325462223430197407}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.14639643, y: -0.65971565, z: -415.3253}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8325462223430197404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8325462223430197407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b794784d992a674f9f2e2e693034fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Throw
+    clip: {fileID: 8300000, guid: 3d6b4f74bdb098d46ad374e0de38394b, type: 3}
+    volume: 0
+    pitch: 1.594
+    source: {fileID: 0}
+  - name: Slap
+    clip: {fileID: 8300000, guid: 3d6b4f74bdb098d46ad374e0de38394b, type: 3}
+    volume: 0
+    pitch: 0.82
+    source: {fileID: 0}
+  - name: Chomp
+    clip: {fileID: 8300000, guid: e2d6884c28f8cc94191bd557c5ae1ba6, type: 3}
+    volume: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: InkSplat
+    clip: {fileID: 8300000, guid: 621385052fe7b514482a7b2754ce0d9c, type: 3}
+    volume: 0
+    pitch: 1
+    source: {fileID: 0}
